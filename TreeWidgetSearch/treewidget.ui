@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CTreeWidget</class>
+ <widget class="QWidget" name="CTreeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CTreeWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>搜索</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTreeWidget" name="treeWidget">
+     <column>
+      <property name="text">
+       <string notr="true">项目</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>河南</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>郑州</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>二七区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>新郑市</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>登封市</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>许昌</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>魏都区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>建安区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>长葛</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鄢陵</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>漯河</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>陕西</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>西安</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>未央区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>莲湖区</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>碑林区</string>
+        </property>
+       </item>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>四川</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>成都</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>绵阳</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>湖北</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>武汉</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>汉口</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text">
+        <string>宜昌</string>
+       </property>
+      </item>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
