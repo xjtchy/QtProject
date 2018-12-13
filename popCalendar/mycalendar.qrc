@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="MyCalendar">
+        <file>images/ad.png</file>
+        <file>images/ar.png</file>
+		<file>images/au.png</file>
+        <file>images/al.png</file>
+		<file>images/calendar.png</file>
+    </qresource>
+</RCC>
