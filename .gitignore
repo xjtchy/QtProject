@@ -1,5 +1,12 @@
-*.a
 *.user
 *.obj
-*.o
+*.ilk
+*.exp
+*.pdb
+*.sdf
+*.sln
+*.vcxproj
+.filters
+*.suo
+*.ipch
 moc_*
