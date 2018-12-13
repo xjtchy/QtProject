@@ -9,4 +9,9 @@
 .filters
 *.suo
 *.ipch
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
 moc_*
